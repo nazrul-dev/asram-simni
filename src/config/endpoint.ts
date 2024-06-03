@@ -1,4 +1,4 @@
-const BASE_URL = "http://103.127.137.175/api/v1";
+const BASE_URL = process.env.NEXT_PUBLIC_BE_URL;
 const SIGN_UP = `${BASE_URL}/auth/desa/signin`;
 const PEKERJAAN = `${BASE_URL}/masters/pekerjaan`;
 const JABATAN = `${BASE_URL}/masters/jabatan`;
